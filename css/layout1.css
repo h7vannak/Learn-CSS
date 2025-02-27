@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 60%;
+    background-color: green;
+    margin: auto;
+    padding: 0.5%;
+    overflow: hidden;
+}
+
+.box {
+    width: 48%;
+    height: 150px;
+    background-color: yellow;
+    margin: 1% 1%;
+    float: left;
+}

@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Top Menu */
+.top-menu ul li {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Active Top Menu Item */
+.top-menu ul li.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+/* Sidebar (Initially Hidden) */
+.sidebar {
+    display: none;
+}
+
+.sidebar ul li{
+    padding: 3px 20px;
+    font-size: 14px;
+}
+
+.sidebar ul li:hover,
+.sidebar ul li.active {
+    background-color: #04AA6D;
+    color: #fff;
+}
+
+.content-section {
+    display: none;
+}
+
+.active {
+    display: block;
+}

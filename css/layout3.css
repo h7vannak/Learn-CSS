@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    background-color: lightgrey;
+    overflow: hidden;
+}
+
+.top-menu,
+.top-menu2 {
+    width: 100%;
+    height: 70px;
+    background-color: gray;
+}
+
+.top-menu2 {
+    height: 90px;
+    margin: 10px 0;
+}
+
+.container-content {
+    width: 100%;
+    background-color: gray;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.container-content .left-content {
+    width: 70%;
+    height: 400px;
+    background-color: darkgray;
+    float: left;
+}
+
+.container-content .right-content {
+    width: 29.2%;
+    height: 400px;
+    background-color: darkgray;
+    margin-left: 0.8%;
+    float: left;
+}
+
+.box-content {
+    width: 24.4%;
+    height: 300px;
+    background-color: gray;
+    margin-top: 10px;
+    margin-right: 0.8%;
+    float: left;
+}
+
+.box-content:last-child {
+    margin-right: 0;
+}
